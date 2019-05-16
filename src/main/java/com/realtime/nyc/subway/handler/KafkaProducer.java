@@ -18,7 +18,7 @@ public class KafkaProducer implements Producer {
 
     @Override
     public void send(String message) {
-//        log.debug("Pushing to Kafka:- " + message);
+        log.debug("Pushing to Kafka:- " + message);
         kafkaTemplate.send(topic, message);
     }
 }
