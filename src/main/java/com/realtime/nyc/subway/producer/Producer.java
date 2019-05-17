@@ -1,4 +1,4 @@
-package com.realtime.nyc.subway.handler;
+package com.realtime.nyc.subway.producer;
 
 public interface Producer {
 

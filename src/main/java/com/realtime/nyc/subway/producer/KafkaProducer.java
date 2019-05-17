@@ -1,4 +1,4 @@
-package com.realtime.nyc.subway.handler;
+package com.realtime.nyc.subway.producer;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

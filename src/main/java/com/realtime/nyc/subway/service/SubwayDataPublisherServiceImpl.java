@@ -4,7 +4,7 @@ import com.google.transit.realtime.GtfsRealtime.FeedEntity;
 import com.google.transit.realtime.GtfsRealtime.FeedMessage;
 import com.googlecode.protobuf.format.JsonFormat;
 import com.realtime.nyc.subway.client.MTAWebClient;
-import com.realtime.nyc.subway.handler.Producer;
+import com.realtime.nyc.subway.producer.Producer;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
